@@ -47,3 +47,5 @@ store = FAISS.from_texts(list_content, OpenAIEmbeddings(), metadatas=list_metada
 faiss.write_index(store.index, "docs.index")
 store.index = None
 
+with open("faiss_store.pkl", "wb") as f:
+    pickle.dump(store, f)
