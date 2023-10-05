@@ -15,3 +15,9 @@ Chatbot Bangkit dibuat menggunakan base model GPT 3.5 yang diperintahkan dan dib
 Chatbot ini dapat mengakses informasi up-to-date melalui metode Augmented Retrieval Generation. Kami mengumpulkan data seperti UU No 12 Tahun 2022 dan informasi lain yang relevan dalam pemberian konsultasi ke korban kekerasan seksual di Indonesia seperti kontak LSM/LBH terdekat. Lalu, memecahnya menjadi beberapa bagian, melakukan vektorisasi, dan menyimpannya di sebuah database berisi sekumpulan vektor. 
 ![image](https://github.com/karuniaperjuangan/chatbot-konseling-compfest/assets/138027129/924e18db-e6b6-4b3a-a229-38f0237bef47)
 
+**Demo**
+
+Aplikasi Chatbot bisa diakses melalui https://huggingface.co/spaces/karuniaperjuangan/bangkit-chatbot dengan memasukkan informasi berikut:
+
+- Username : aic
+- Password : compfest
